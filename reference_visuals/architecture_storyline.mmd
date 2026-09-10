@@ -1,0 +1,13 @@
+flowchart LR
+  D[Enterprise Data] --> S[Semantic Layer]
+  S <--> O[Ontology]
+  S --> K[Knowledge Graph]
+  O --> K
+  K --> G[Graph Platform]
+  G --> H[Hybrid Retrieval]
+  H --> C[Runtime Context Graph]
+  C --> A[AI / Agent]
+  A --> P[Policy + Human Gate]
+  P --> X[Decision / Workflow]
+  X --> E[Evidence + Feedback]
+  E -. governed learning .-> K
