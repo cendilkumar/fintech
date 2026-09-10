@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NexLend — SME Credit Underwriting Intelligence Workbench</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="kicker">NexLend SME Finance · workshop display plane</p>
+      <h1>SME Credit Underwriting Intelligence Workbench</h1>
+    </div>
+    <div class="top-meta">
+      <span class="badge warn" data-testid="assistance-banner">Assistance, not a credit decision</span>
+      <span class="badge" data-testid="policy-badge">ACTIVE CREDIT-POLICY-3.2</span>
+      <span class="badge muted" data-testid="model-badge">model=NONE</span>
+    </div>
+  </header>
+  <p class="caveat" data-testid="operator-caveat">
+    Screens display gates. AI has no autonomous final credit, adverse, exception or recourse authority.
+    Workshop TAT is not the 30-minute business target. Contract 15/15 is not production PASS.
+  </p>
+  <section class="toolbar">
+    <label>Golden scenario
+      <select id="scenario" data-testid="scenario-select"></select>
+    </label>
+    <label>Actor tenant
+      <select id="tenant" data-testid="tenant-select">
+        <option>TENANT-ALPHA</option>
+        <option>TENANT-BETA</option>
+      </select>
+    </label>
+    <label>Actor role
+      <select id="role" data-testid="role-select"></select>
+    </label>
+    <label>Purpose
+      <select id="purpose" data-testid="purpose-select">
+        <option value="UNDERWRITING_RUNTIME">UNDERWRITING_RUNTIME</option>
+        <option value="RISK_COMPLIANCE_EVAL">RISK_COMPLIANCE_EVAL</option>
+      </select>
+    </label>
+    <button id="reload" type="button">Reload case</button>
+  </section>
+  <div class="shell">
+    <nav class="nav" id="nav" aria-label="Workbench screens"></nav>
+    <main class="main">
+      <aside class="expected" id="expected" data-testid="expected-state"></aside>
+      <article class="panel" id="panel" data-testid="active-panel">Loading workbench…</article>
+    </main>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
