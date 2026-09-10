@@ -1,0 +1,10 @@
+source,physical_field,physical_meaning,candidate_canonical,issue
+LOS,customer_id,LOS customer record identifier,Party.party_id,not shared by external providers
+LOS,application_id,facility application identifier,CreditApplication.application_id,
+BUREAU,reported_name,name in bureau report,Party.observed_name,format/spelling may differ from LOS
+TAX,reported_name,name in tax record,Party.observed_name,legal/trade name differences
+BANK,twelve_month_inflows,provider-derived inflow sum,FinancialObservation.bank_inflows_12m,not identical to revenue/turnover
+TAX,declared_turnover,declared filing turnover,FinancialObservation.tax_declared_turnover,not identical to bank inflow
+POLICY,result,active deterministic policy outcome,PolicyEvaluation.result,must retain policy version
+DOCS,ocr_confidence,OCR extraction confidence,EvidenceObservation.extraction_confidence,not credit confidence
+CASE,decision,authorized recorded human outcome,CreditDecision.outcome,historical decision is not objective ground truth

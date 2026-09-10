@@ -1,0 +1,10 @@
+from_concept,relationship,to_concept,evidence,temporal,question_enabled
+CreditApplication,HAS_APPLICANT,Party,LOS/application_parties,application-scoped,who/what is being underwritten?
+CreditApplication,HAS_EVIDENCE,EvidenceItem,documents/external sources,versioned,what evidence supported the review?
+EvidenceItem,OBSERVES,FinancialMeasure,bank/tax/bureau/docs,as-of,which source produced this measure?
+CreditApplication,EVALUATED_BY,PolicyEvaluation,policy engine,versioned run,which active rules were applied?
+PolicyEvaluation,USES_POLICY,PolicyVersion,policy bundle,effective interval,was current policy used?
+CreditApplication,ASSIGNED_TO,HumanRole,case management,time bounded,who has authority now?
+CreditApplication,RESULTED_IN,CreditDecision,case management,decision time,what human decision was recorded?
+CreditDecision,HAS_OUTCOME,ObservedOutcome,portfolio/outcome feed,post decision,what happened later?
+Party,BELONGS_TO_TENANT,Tenant,identity/IAM,current,what may this actor retrieve?

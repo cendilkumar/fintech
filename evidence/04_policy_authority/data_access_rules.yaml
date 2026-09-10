@@ -1,0 +1,30 @@
+rules:
+- id: DATA-TENANT
+  effect: DENY
+  condition: resource.tenant_id != actor.tenant_id
+  applies_to:
+  - structured
+  - graph
+  - vector
+  - policy
+  - memory
+  - display
+- id: DATA-SENSITIVE
+  effect: DENY
+  condition: data.classification == RESTRICTED_EVAL and actor.role != RISK_COMPLIANCE_EVAL
+  applies_to:
+  - runtime_context
+  - decision_prompt
+  - display
+- id: DATA-DOC-INSTRUCTION
+  effect: TREAT_AS_UNTRUSTED_CONTENT
+  condition: source_type == APPLICANT_DOCUMENT
+  applies_to:
+  - retrieval
+  - prompt_assembly
+- id: DATA-SUPERSEDED-POLICY
+  effect: EXCLUDE_FROM_ACTIVE_POLICY_CONTEXT
+  condition: document.status == SUPERSEDED
+  applies_to:
+  - policy_retrieval
+  - decision_context

@@ -1,0 +1,5 @@
+canonical_entity_type,canonical_id,source,source_id,match_features,match_method,match_confidence,ambiguity,adjudication_rule,provenance_retained
+CreditApplication,,,,,,,,,
+Organization,,,,,,,,,
+NaturalPerson,,,,,,,,,
+EvidenceItem,,,,,,,,,

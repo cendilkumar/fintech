@@ -1,0 +1,11 @@
+{
+  "rows": 160,
+  "median_tat_minutes": 89.5,
+  "p90_tat_minutes": 218,
+  "document_rework_pct": 36.875,
+  "manual_lookups_gt3_pct": 49.375,
+  "median_memo_minutes": 35.0,
+  "policy_exception_pct": 6.875,
+  "source_reference_missing_pct": 13.75,
+  "bank_feed_stale_pct": 4.375
+}

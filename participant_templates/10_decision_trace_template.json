@@ -1,0 +1,64 @@
+{
+  "trace_id": "TRACE-EXAMPLE",
+  "decision_id": "DECISION-EXAMPLE",
+  "task": "",
+  "application_id": "",
+  "actor": {
+    "role": "",
+    "tenant": ""
+  },
+  "context_snapshot": {
+    "context_id": "",
+    "as_of_time": "",
+    "included_entity_refs": [],
+    "conflicts": [],
+    "source_health": []
+  },
+  "retrievals": [
+    {
+      "mode": "structured|graph|vector|policy|memory",
+      "query_or_tool": "",
+      "result_refs": [],
+      "filters": {},
+      "timestamp": ""
+    }
+  ],
+  "source_evidence": [
+    {
+      "source": "",
+      "record_ref": "",
+      "event_time": "",
+      "source_update_time": "",
+      "freshness_state": "",
+      "authority": ""
+    }
+  ],
+  "policy_checks": [
+    {
+      "rule_id": "",
+      "result": "PASS|DENY|REQUIRES_HUMAN",
+      "policy_version": ""
+    }
+  ],
+  "tool_calls": [],
+  "versions": {
+    "model": "",
+    "prompt": "",
+    "retrieval_policy": "",
+    "semantic_model": "",
+    "ontology": "",
+    "policy_bundle": ""
+  },
+  "recommendation": "",
+  "concise_rationale": "",
+  "uncertainty_or_abstention": "",
+  "human_decision": {
+    "status": "",
+    "role": "",
+    "reason": "",
+    "time": ""
+  },
+  "action_record": {},
+  "outcome": {},
+  "evaluation_flags": []
+}

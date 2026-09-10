@@ -1,0 +1,19 @@
+authorities:
+- fact_type: application_workflow_state
+  primary: LOS
+  conflict_rule: surface conflict; Case Management owns final human decision state
+- fact_type: commercial_bureau_fact
+  primary: CREDIT_BUREAU
+  conflict_rule: do not overwrite with memo narrative
+- fact_type: bank_cashflow_summary
+  primary: BANK_DATA
+  conflict_rule: separate from tax turnover; show disagreement
+- fact_type: tax_declared_turnover
+  primary: TAX_GST
+  conflict_rule: separate from bank inflow; show disagreement
+- fact_type: active_credit_policy
+  primary: POLICY_ENGINE/CREDIT-POLICY-3.2
+  conflict_rule: superseded documents cannot override active bundle
+- fact_type: final_human_credit_decision
+  primary: CASE_MANAGEMENT
+  conflict_rule: AI recommendation is never final decision truth

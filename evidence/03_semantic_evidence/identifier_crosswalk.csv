@@ -1,0 +1,46 @@
+canonical_candidate,application_id,source,source_id,observed_name,tax_token,match_clue
+ORG-001,SME-L001,LOS,LOS-CUST-1001,Rivermint Foods Pvt Ltd,TAX-***41,primary workflow identity
+ORG-001,SME-L001,BUREAU,BUR-001,Rivermint Foods Pvt Ltd,TAX-***41,provider identity; may need adjudication
+ORG-001,SME-L001,TAX,TAXREC-001,Rivermint Foods Pvt Ltd,TAX-***41,tax identity evidence
+ORG-002,SME-L002,LOS,LOS-CUST-1002,Asterline Components Pvt Ltd,TAX-***42,primary workflow identity
+ORG-002,SME-L002,BUREAU,BUR-002,Asterline Components Pvt Ltd,TAX-***42,provider identity; may need adjudication
+ORG-002,SME-L002,TAX,TAXREC-002,Asterline Components Pvt Ltd,TAX-***42,tax identity evidence
+ORG-003,SME-L003,LOS,LOS-CUST-1003,Northstar Design Studio,TAX-***43,primary workflow identity
+ORG-003,SME-L003,BUREAU,BUR-003,Northstar Design Studio,TAX-***43,provider identity; may need adjudication
+ORG-003,SME-L003,TAX,TAXREC-003,Northstar Design Studio,TAX-***43,tax identity evidence
+ORG-004,SME-L004,LOS,LOS-CUST-1004,Blueharbor Textiles Pvt Ltd,TAX-***44,primary workflow identity
+ORG-004,SME-L004,BUREAU,BUR-004,Blue Harbour Textiles Private Limited,TAX-***XX,provider identity; may need adjudication
+ORG-004,SME-L004,TAX,TAXREC-004,Blueharbour Textile Industries Pvt Ltd,TAX-***44,tax identity evidence
+ORG-005,SME-L005,LOS,LOS-CUST-1005,Greenforge Packaging Pvt Ltd,TAX-***45,primary workflow identity
+ORG-005,SME-L005,BUREAU,BUR-005,Greenforge Packaging Pvt Ltd,TAX-***45,provider identity; may need adjudication
+ORG-005,SME-L005,TAX,TAXREC-005,Greenforge Packaging Pvt Ltd,TAX-***45,tax identity evidence
+ORG-006,SME-L006,LOS,LOS-CUST-1006,Copperleaf Logistics Pvt Ltd,TAX-***46,primary workflow identity
+ORG-006,SME-L006,BUREAU,BUR-006,Copperleaf Logistics Pvt Ltd,TAX-***46,provider identity; may need adjudication
+ORG-006,SME-L006,TAX,TAXREC-006,Copperleaf Logistics Pvt Ltd,TAX-***46,tax identity evidence
+ORG-007,SME-L007,LOS,LOS-CUST-1007,Marigold Precision Works Pvt Ltd,TAX-***47,primary workflow identity
+ORG-007,SME-L007,BUREAU,BUR-007,Marigold Precision Works Pvt Ltd,TAX-***47,provider identity; may need adjudication
+ORG-007,SME-L007,TAX,TAXREC-007,Marigold Precision Works Pvt Ltd,TAX-***47,tax identity evidence
+ORG-008,SME-L008,LOS,LOS-CUST-1008,Suncrest Agro Processing Pvt Ltd,TAX-***48,primary workflow identity
+ORG-008,SME-L008,BUREAU,BUR-008,Suncrest Agro Processing Pvt Ltd,TAX-***48,provider identity; may need adjudication
+ORG-008,SME-L008,TAX,TAXREC-008,Suncrest Agro Processing Pvt Ltd,TAX-***48,tax identity evidence
+ORG-009,SME-L009,LOS,LOS-CUST-1009,Silveroak Trading Pvt Ltd,TAX-***49,primary workflow identity
+ORG-009,SME-L009,BUREAU,BUR-009,Silveroak Trading Pvt Ltd,TAX-***49,provider identity; may need adjudication
+ORG-009,SME-L009,TAX,TAXREC-009,Silveroak Trading Pvt Ltd,TAX-***49,tax identity evidence
+ORG-010,SME-L010,LOS,LOS-CUST-1010,Orchid Machine Tools Pvt Ltd,TAX-***50,primary workflow identity
+ORG-010,SME-L010,BUREAU,BUR-010,Orchid Machine Tools Pvt Ltd,TAX-***50,provider identity; may need adjudication
+ORG-010,SME-L010,TAX,TAXREC-010,Orchid Machine Tools Pvt Ltd,TAX-***50,tax identity evidence
+ORG-011,SME-L011,LOS,LOS-CUST-1011,Cloudberry Retail Pvt Ltd,TAX-***51,primary workflow identity
+ORG-011,SME-L011,BUREAU,BUR-011,Cloudberry Retail Pvt Ltd,TAX-***51,provider identity; may need adjudication
+ORG-011,SME-L011,TAX,TAXREC-011,Cloudberry Retail Pvt Ltd,TAX-***51,tax identity evidence
+ORG-012,SME-L012,LOS,LOS-CUST-1012,Ironbridge Fabrication Pvt Ltd,TAX-***52,primary workflow identity
+ORG-012,SME-L012,BUREAU,BUR-012,Ironbridge Fabrication Pvt Ltd,TAX-***52,provider identity; may need adjudication
+ORG-012,SME-L012,TAX,TAXREC-012,Ironbridge Fabrication Pvt Ltd,TAX-***52,tax identity evidence
+ORG-013,SME-L013,LOS,LOS-CUST-1013,Saffron Hill Services Pvt Ltd,TAX-***53,primary workflow identity
+ORG-013,SME-L013,BUREAU,BUR-013,Saffron Hill Services Pvt Ltd,TAX-***53,provider identity; may need adjudication
+ORG-013,SME-L013,TAX,TAXREC-013,Saffron Hill Services Pvt Ltd,TAX-***53,tax identity evidence
+ORG-014,SME-L014,LOS,LOS-CUST-1014,Pinewave Electronics Pvt Ltd,TAX-***54,primary workflow identity
+ORG-014,SME-L014,BUREAU,BUR-014,Pinewave Electronics Pvt Ltd,TAX-***54,provider identity; may need adjudication
+ORG-014,SME-L014,TAX,TAXREC-014,Pinewave Electronics Pvt Ltd,TAX-***54,tax identity evidence
+ORG-015,SME-L015,LOS,LOS-CUST-1015,Redwood Mobility Pvt Ltd,TAX-***55,primary workflow identity
+ORG-015,SME-L015,BUREAU,BUR-015,Redwood Mobility Pvt Ltd,TAX-***55,provider identity; may need adjudication
+ORG-015,SME-L015,TAX,TAXREC-015,Redwood Mobility Pvt Ltd,TAX-***55,tax identity evidence

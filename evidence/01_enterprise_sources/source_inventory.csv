@@ -1,0 +1,10 @@
+source_id,source_name,physical_type,business_facts,authoritative_for,not_authoritative_for,owner,freshness_expectation,runtime_status,retrieval_mode
+LOS,Loan Origination System,Relational/API,"application,workflow,declared facts,consent",application identity and workflow state,bureau/tax/bank facts,Lending Operations,near real time,PERMITTED,structured
+DOCS,Document Store,PDF/image/object store,"application forms,financials,invoices",document bytes/version received,interpretation of financial facts,Lending Operations,event driven,CONDITIONAL,vector/document
+BUREAU,Commercial Credit Bureau,External API,commercial credit history,provider bureau facts,internal policy decision,Credit Risk,<=30 days unless policy stricter,CONDITIONAL,structured
+BANK,Bank Data Interface,External API,transaction/cashflow summary,consented bank feed facts,declared tax turnover,Data Partnerships,<=7 days for workshop policy,RESTRICTED,structured
+TAX,Tax/GST Source,External API/file,filing/declared turnover,retrieved tax filing facts,bank cashflow,Credit Risk,latest available filing,CONDITIONAL,structured
+EXPOSURE,Exposure System,Relational/API,existing obligations and arrears,internal current exposure,external debts not recorded,Portfolio Risk,<=15 min,PERMITTED,structured
+POLICY,Credit Policy Engine,Rules service/API,approved rule evaluations and authority routing,active policy result,raw evidence truth,Credit Policy,active version required,PERMITTED_AUTHORITATIVE,policy
+CASE,Case Management,Workflow store/API,"reviews,conditions,decision record,appeal",human decision record,external data,Credit Operations,near real time,PERMITTED,structured/memory
+MEMO,Credit Memo Repository,Documents/text,historical rationale and review comments,what was documented at that time,current policy or objective ground truth,Credit Operations,historical,CONDITIONAL,vector/memory

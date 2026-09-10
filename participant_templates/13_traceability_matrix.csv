@@ -1,0 +1,4 @@
+trace_id,evidence_ref,architecture_stage,architecture_decision,prd_requirement_id,app_component_or_screen,golden_scenario_id,test_id,status,notes
+TR-001,,,,,,,,,
+TR-002,,,,,,,,,
+TR-003,,,,,,,,,

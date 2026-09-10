@@ -1,0 +1,2 @@
+test_run_id,scenario_id,test_id,hard_or_quality,expected_behavior,observed_behavior,pass_fail,evidence_link_or_screenshot,trace_id,defect_id,notes
+RUN-001,GS-01,,,,,,,,,

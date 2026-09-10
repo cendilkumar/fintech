@@ -1,0 +1,6 @@
+metric,candidate_definition,ambiguity,authoritative_sources,participant_must_decide
+End-to-end uncomplicated-case TAT,decision_record_time - application_ready_time,what qualifies as uncomplicated; what starts the clock?,LOS + Case Management,yes
+Evidence completeness,required evidence present and usable under active policy,presence vs fresh/permitted/identity-matched,Policy Engine + source health + provenance,yes
+Material-factor provenance coverage,material AI-assisted factors with valid source refs / all material AI-assisted factors,what counts as material,Decision trace,yes
+Policy exception rate,cases routed by active policy to exception/senior review,must not include missing-data queue unless policy classifies it,Policy Engine,yes
+Manual lookup count,cross-system evidence retrieval interactions per case,system-generated retrieval vs human lookup,interaction logs,yes

@@ -1,0 +1,29 @@
+constraints:
+- id: CREDIT-AUTH-001
+  rule: AI assistance must not autonomously approve, decline, condition, price, or
+    change a credit facility. Final credit outcomes require the human role selected
+    by active policy.
+- id: POLICY-001
+  rule: The active Credit Policy Engine result and version are authoritative for deterministic
+    policy; generative output cannot override or invent rules.
+- id: PROV-001
+  rule: Every material AI-assisted factor displayed to an underwriter must carry source
+    reference, freshness and derivation/provenance.
+- id: TENANT-001
+  rule: Cross-tenant retrieval or display is denied before context assembly.
+- id: SENSITIVE-001
+  rule: Protected or sensitive attributes are not runtime decision features by default;
+    evaluation use requires approved restricted purpose.
+- id: STALE-001
+  rule: Stale or unavailable material evidence must be explicit; the AI may not silently
+    impute it as current.
+- id: PROMPT-001
+  rule: Untrusted document or retrieved narrative text is evidence content, never
+    executable system or policy instruction.
+- id: FALLBACK-001
+  rule: When AI assistance is unavailable, the standard manual underwriting workflow
+    remains executable.
+- id: FEEDBACK-001
+  rule: Human decisions and outcomes may feed governed evaluation/learning processes
+    but cannot automatically rewrite credit policy, semantic definitions or model
+    behavior.

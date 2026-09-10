@@ -1,0 +1,16 @@
+application_id,tenant_id,applicant_name,applicant_type,segment,channel,product,requested_limit,status,submitted_at,current_stage,assigned_role,scenario_hint
+SME-L001,TENANT-ALPHA,Rivermint Foods Pvt Ltd,legal_entity,small,digital,working_capital,1200000,IN_REVIEW,2026-09-15T09:05:00+05:30,EVIDENCE_RECONCILIATION,CREDIT_ANALYST,GS-01
+SME-L002,TENANT-ALPHA,Asterline Components Pvt Ltd,legal_entity,medium,relationship_manager,term_loan,8500000,IN_REVIEW,2026-09-15T08:40:00+05:30,POLICY_REVIEW,SENIOR_UNDERWRITER,GS-02
+SME-L003,TENANT-ALPHA,Northstar Design Studio,sole_trader,micro,digital,working_capital,650000,IN_REVIEW,2026-09-15T09:22:00+05:30,FINANCIAL_ANALYSIS,CREDIT_ANALYST,GS-03
+SME-L004,TENANT-ALPHA,Blueharbor Textiles Pvt Ltd,legal_entity_with_natural_person_guarantor,small,partner,invoice_finance,2200000,EXCEPTION,2026-09-15T08:58:00+05:30,IDENTITY_RECONCILIATION,CREDIT_ANALYST,GS-04
+SME-L005,TENANT-ALPHA,Greenforge Packaging Pvt Ltd,legal_entity,small,digital,working_capital,1800000,IN_REVIEW,2026-09-15T09:11:00+05:30,FINANCIAL_ANALYSIS,CREDIT_ANALYST,GS-05
+SME-L006,TENANT-ALPHA,Copperleaf Logistics Pvt Ltd,legal_entity,medium,relationship_manager,term_loan,4300000,INSUFFICIENT_EVIDENCE,2026-09-15T08:50:00+05:30,EXTERNAL_DATA,CREDIT_ANALYST,GS-06
+SME-L007,TENANT-ALPHA,Marigold Precision Works Pvt Ltd,legal_entity,medium,digital,working_capital,3600000,EXCEPTION,2026-09-15T08:37:00+05:30,POLICY_REVIEW,SENIOR_UNDERWRITER,GS-07
+SME-L008,TENANT-BETA,Suncrest Agro Processing Pvt Ltd,legal_entity,small,partner,invoice_finance,1600000,IN_REVIEW,2026-09-15T09:15:00+05:30,EVIDENCE_RECONCILIATION,CREDIT_ANALYST,GS-08
+SME-L009,TENANT-ALPHA,Silveroak Trading Pvt Ltd,legal_entity,small,digital,working_capital,1400000,IN_REVIEW,2026-09-15T09:07:00+05:30,DOCUMENT_REVIEW,CREDIT_ANALYST,GS-09
+SME-L010,TENANT-ALPHA,Orchid Machine Tools Pvt Ltd,legal_entity,medium,relationship_manager,term_loan,5200000,IN_REVIEW,2026-09-15T08:31:00+05:30,MEMO_PREPARATION,SENIOR_UNDERWRITER,GS-10
+SME-L011,TENANT-ALPHA,Cloudberry Retail Pvt Ltd,legal_entity,small,digital,working_capital,1100000,EXCEPTION,2026-09-15T09:18:00+05:30,EVIDENCE_RECONCILIATION,CREDIT_ANALYST,GS-11
+SME-L012,TENANT-ALPHA,Ironbridge Fabrication Pvt Ltd,legal_entity,medium,partner,term_loan,6100000,IN_REVIEW,2026-09-15T08:48:00+05:30,POLICY_REVIEW,SENIOR_UNDERWRITER,GS-12
+SME-L013,TENANT-ALPHA,Saffron Hill Services Pvt Ltd,legal_entity_with_natural_person_guarantor,small,digital,working_capital,2400000,REQUIRES_DECISION,2026-09-15T08:55:00+05:30,CREDIT_DECISION,CREDIT_AUTHORITY,GS-13
+SME-L014,TENANT-ALPHA,Pinewave Electronics Pvt Ltd,legal_entity,small,digital,invoice_finance,1950000,IN_REVIEW,2026-09-15T09:12:00+05:30,MEMO_PREPARATION,CREDIT_ANALYST,GS-14
+SME-L015,TENANT-ALPHA,Redwood Mobility Pvt Ltd,legal_entity,medium,relationship_manager,working_capital,3900000,POST_DECISION,2026-09-14T14:35:00+05:30,OUTCOME_MONITORING,PORTFOLIO_ANALYST,GS-15

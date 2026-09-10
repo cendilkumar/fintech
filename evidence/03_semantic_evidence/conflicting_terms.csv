@@ -1,0 +1,9 @@
+term,source_or_role,observed_meaning,semantic_risk,participant_decision
+customer,LOS,organization/customer record,may collapse organization and natural person,define Party subtypes and identity rules
+applicant,operations,entity requesting facility,sole trader may be both business and natural person,define ApplicantRole separately from Party type
+revenue,analyst,"sometimes tax turnover, sometimes bank inflow, sometimes financial-statement revenue",false equivalence,separate measures and define reconciliation rule
+approved,policy engine,sometimes rule PASS,may be confused with final human credit approval,separate PolicyEvaluation from CreditDecision
+confidence,document AI,OCR/extraction confidence,may be mistaken for creditworthiness confidence,namespace confidence by task
+fresh,data providers,different source-specific time windows,one global freshness flag hides policy semantics,define source-specific freshness states
+ground truth,historical outcomes,prior human decision/outcome,selection bias and policy-history leakage,separate adjudicated evaluation truth from historical action
+exception,queue,missing evidence or actual policy exception,different remediation and authority,taxonomy required

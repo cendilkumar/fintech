@@ -1,0 +1,12 @@
+{
+  "source": "Original participant case study benchmark evidence",
+  "population_note": "These benchmark values describe the larger case-study operating baseline and are not expected to equal the 160-row synthetic workshop fixture.",
+  "median_end_to_end_uncomplicated_case_tat_minutes": 142,
+  "p90_tat_minutes": 648,
+  "document_rework_pct": 31.2,
+  "manual_system_lookups_gt3_pct": 57.0,
+  "credit_memo_preparation_median_minutes": 38,
+  "policy_rule_exception_pct": 8.4,
+  "decision_package_missing_reproducible_source_reference_pct": 13.7,
+  "business_target_uncomplicated_case_tat_minutes_lt": 30
+}
